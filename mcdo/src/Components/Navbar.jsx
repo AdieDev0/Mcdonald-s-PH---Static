@@ -1,4 +1,5 @@
 import React from 'react'
+import { RiMenu3Fill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
         <button>McDelivery</button>
         <button>Careers</button>
         <button>Opportunities</button>
-        
+
 
       </div>
     </div>
