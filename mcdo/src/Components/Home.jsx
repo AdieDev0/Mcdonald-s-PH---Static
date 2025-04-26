@@ -1,32 +1,28 @@
 import React from "react";
+import mcdo1 from "../assets/Carousel/McDo (1).jpg";
+import mcdo2 from "../assets/Carousel/McDo (2).jpg";
+import mcdo3 from "../assets/Carousel/McDo (3).jpg";
+import mcdo4 from "../assets/Carousel/McDo (4).jpg";
+import mcdo5 from "../assets/Carousel/McDo (5).jpg";
 
 const Home = () => {
   return (
     <div>
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-            className="w-full"
-          />
+          <img src={mcdo1} className="w-full" />
         </div>
         <div id="item2" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-            className="w-full"
-          />
+          <img src={mcdo2} className="w-full" />
         </div>
         <div id="item3" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-            className="w-full"
-          />
+          <img src={mcdo3} className="w-full" />
         </div>
         <div id="item4" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-            className="w-full"
-          />
+          <img src={mcdo4} className="w-full" />
+        </div>
+        <div id="item4" className="carousel-item w-full">
+          <img src={mcdo5} className="w-full" />
         </div>
       </div>
       <div className="flex w-full justify-center gap-2 py-2">
