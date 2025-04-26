@@ -9,9 +9,35 @@ const Navbar = () => {
         <button className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
           Home
         </button>
-        <button className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
-          About Us
-        </button>
+        <div className="dropdown dropdown-hover">
+          <div
+            tabIndex={0}
+            role="button"
+            className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer"
+          >
+            About Us
+          </div>
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm pt-5"
+          >
+            <li>
+              <a className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
+                Our Story
+              </a>
+            </li>
+            <li>
+              <a className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
+                Our Food
+              </a>
+            </li>
+            <li>
+              <a className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
+                Our Stores
+              </a>
+            </li>
+          </ul>
+        </div>
         <button className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
           Family Activities
         </button>
@@ -21,9 +47,30 @@ const Navbar = () => {
         <button className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
           Careers
         </button>
-        <button className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
-          Opportunities
-        </button>
+        <div className="dropdown dropdown-hover">
+          <div
+            tabIndex={0}
+            role="button"
+            className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer"
+          >
+            Opportunities
+          </div>
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm pt-5"
+          >
+            <li>
+              <a className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
+                Franchising
+              </a>
+            </li>
+            <li>
+              <a className="text-red-600 hover:text-black duration-200 text-lg font-bold cursor-pointer">
+                Property Leasing
+              </a>
+            </li>
+          </ul>
+        </div>
         {/* DAISY UI */}
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="">
