@@ -17,19 +17,16 @@ const Footer = () => {
       transition={{ duration: 0.7 }}
     >
       {/* McDelivery Logo */}
-      <motion.div whileHover={{ scale: 1.1 }}>
+      <motion.div>
         <img
           src={McDelivery}
           alt="McDelivery"
-          className="cursor-pointer w-32 md:w-40"
+          className="cursor-pointer w-26"
         />
       </motion.div>
 
       {/* App Store & Google Play */}
-      <motion.div
-        className="flex flex-col items-center md:items-start"
-        whileHover={{ scale: 1.05 }}
-      >
+      <motion.div className="flex flex-col items-center md:items-start">
         <img
           src={appStore}
           alt="App Store"
@@ -43,10 +40,7 @@ const Footer = () => {
       </motion.div>
 
       {/* Links Column 1 */}
-      <motion.div
-        className="flex flex-col items-center md:items-start"
-        whileHover={{ scale: 1.05 }}
-      >
+      <motion.div className="flex flex-col items-center md:items-start">
         <button className="text-left text-sm cursor-pointer hover:text-stone-600 duration-200">
           Privacy Policy
         </button>
@@ -62,10 +56,7 @@ const Footer = () => {
       </motion.div>
 
       {/* Links Column 2 */}
-      <motion.div
-        className="flex flex-col items-center md:items-start"
-        whileHover={{ scale: 1.05 }}
-      >
+      <motion.div className="flex flex-col items-center md:items-start">
         <button className="text-left text-sm cursor-pointer hover:text-stone-600 duration-200">
           About Us
         </button>
@@ -81,10 +72,7 @@ const Footer = () => {
       </motion.div>
 
       {/* Socials */}
-      <motion.div
-        className="flex flex-col items-center md:items-start"
-        whileHover={{ scale: 1.05 }}
-      >
+      <motion.div className="flex flex-col items-center md:items-start">
         <h5 className="font-semibold">Follow us on</h5>
         <div className="flex gap-3 mt-2">
           <FaFacebookSquare className="size-8 cursor-pointer hover:text-stone-600 duration-200" />
