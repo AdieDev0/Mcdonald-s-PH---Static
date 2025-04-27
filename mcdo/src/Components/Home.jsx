@@ -6,6 +6,13 @@ import mcdo4 from "../assets/Carousel/McDo (4).jpg";
 import mcdo5 from "../assets/Carousel/McDo (5).jpg";
 
 const Home = () => {
+
+const cardItems = [
+  {
+    
+  }
+]
+
   return (
     <div>
       <div className="carousel w-full">
@@ -38,6 +45,11 @@ const Home = () => {
         <a href="#item4" className="btn btn-xs">
           4
         </a>
+      </div>
+
+    {/* CARDS SECTION */}
+      <div>
+        
       </div>
     </div>
   );
